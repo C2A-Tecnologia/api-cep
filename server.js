@@ -1,4 +1,5 @@
 import 'dotenv/config'
+
 import express from 'express'
 import { getAddressByCep, setAddressByCep } from './controllers/cepController.js';
 const app = express();
